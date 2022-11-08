@@ -22,16 +22,16 @@ if b == 2:
     else -- bu bo‘lmasa degan ma‘noni bildiradi ,else if bilan elif ishlamaganda, kiritgan kodlarimiz oxirida bir marotaba ishlatilinadi.Elsega shart kiritmaymiz.  
     ''')
 
-    m = input('''Sizga misollar keltiraman:
+    m = input('''Sizga misollar keltiraman:''')
     a = int(input("1-sonni kiriting: "))
     b = int(input("2-sonni kiriting: "))
     if a > b:
-        print(a son b sondan katta)
+        print('a son b sondan katta')
     elif a < b:
-        print(a son b sondan kichik)
+        print('a son b sondan kichik')
     else:
-        print(Ikkala son bir-biriga teng)         
-    ''')
+        print('Ikkala son bir-biriga teng')         
+ 
 
     m1 =input('''Sizga vazifa:
     Shart operatorlaridan foydalanib kalkulyator tuzing ''')

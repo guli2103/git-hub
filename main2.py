@@ -24,24 +24,24 @@ if b == 1:
     Boolean -- bu mantiqiy amallar to‘plamifdir, True va False orqali ifodalanadi
     ''')
 
-    m = input('''Sizga misollar keltiraman:
-    String:
+    m = input('''Sizga misollar keltiraman: ''')
+    print("String:")
     a = "Hello"
     print(a)
 
-    Integer:
+    print("Integer:")
     b = 122
     print(b)
 
-    Float:
+    print("Float:")
     c = 3.14
     print(c)
 
-    Boolean:
+    print("Boolean:")
     d = 8
     f =10
     print(d > f)
-    ''')
+   
 
     m1 = input('''Sizga vazifa:
     Ismingiz ,familiyangiz , yoshingizni kiriting''')

@@ -20,6 +20,7 @@ try:
     from main2 import *
     from main3 import *
     from main4 import *
+    from main5 import *
 
 except ValueError:
     print("Siz text ma'lumot turi kiritdiz")

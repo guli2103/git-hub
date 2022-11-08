@@ -24,7 +24,7 @@ if b == 3:
     break -- bu bizga to‘xtatish vazifasini bajaradi
     ''')
 
-    m = input('''Sizga misollar keltiraman:
+    m = input('''Sizga misollar keltiraman: ''')
     
     a = 0
     b= 900 
@@ -42,10 +42,10 @@ if b == 3:
         a += 1
         print(a)
         if a == b/2:
-            print("siz kiritgan sonni yarmiga yetib keldik)
+            print("siz kiritgan sonni yarmiga yetib keldik")
             break
 
-    ''')
+   
 
     m1 = input('''Sizga vazifa:
     Toq sonlarni while va forda ifodalang
